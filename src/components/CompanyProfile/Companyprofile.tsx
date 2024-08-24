@@ -88,6 +88,7 @@ const CompanyProfile = () => {
       setCompanyData(value?.data[0]);
     };
     getCompanyKeyMetrics();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   return (
     <>

@@ -85,7 +85,8 @@ const IncomeStatement = () => {
       setIncomeStatement(result!.data);
     };
     incomeStatementFetch();
-  }, []);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+}, []);
   return (
     <>
       {incomeStatement ? (

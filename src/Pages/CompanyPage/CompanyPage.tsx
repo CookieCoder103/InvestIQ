@@ -20,6 +20,7 @@ const CompanyPage = () => {
       setCompany(result?.data[0]);
     };
     getProfileInit();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (

@@ -86,6 +86,7 @@ const BalanceSheet = () => {
       setBalanceSheet(value?.data[0]);
     };
     getData();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (

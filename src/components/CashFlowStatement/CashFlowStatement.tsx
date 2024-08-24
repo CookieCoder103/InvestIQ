@@ -61,6 +61,7 @@ const CashFlowStatement = (props: Props) => {
       setCashflow(result!.data);
     };
     fetchCashflow();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   return (
     <>
