@@ -12,7 +12,7 @@ import ContactPage from "../Pages/ContactPage/ContactPage";
 
 export const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/InvestIQ/",
     element: <App />,
     children: [
       { path: "", element: <HomePage /> },
