@@ -20,7 +20,7 @@ const Navbar = () => {
       <div className="flex items-center justify-center">
         <ul className="menu menu-horizontal bg-neutral rounded-box mt-6">
           <li>
-            <Link to="/" className="tooltip tooltip-bottom" data-tip="Home">
+            <Link to="/InvestIQ" className="tooltip tooltip-bottom" data-tip="Home">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -39,7 +39,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              to="/contact"
+              to="/InvestIQ/contact"
               className="tooltip tooltip-bottom"
               data-tip="Contact"
             >
@@ -61,7 +61,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              to="/search"
+              to="/InvestIQ/search"
               onClick={scrollToTop}
               className="tooltip tooltip-bottom"
               data-tip="Stocks"
