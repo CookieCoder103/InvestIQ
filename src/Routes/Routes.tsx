@@ -16,11 +16,11 @@ export const router = createBrowserRouter([
     element: <App />,
     children: [
       { path: "", element: <HomePage /> },
-      { path: "search", element: <SearchPage /> },
-      { path: "design-guide", element: <DesignGuide /> },
-      { path: "contact", element: <ContactPage /> },
+      { path: "/InvestIQ/search", element: <SearchPage /> },
+      { path: "/InvestIQ/design-guide", element: <DesignGuide /> },
+      { path: "/InvestIQ/contact", element: <ContactPage /> },
       {
-        path: "company/:ticker",
+        path: "/InvestIQ/company/:ticker",
         element: <CompanyPage />,
         children: [
           { path: "company-profile", element: <CompanyProfile /> },
