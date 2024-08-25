@@ -13,7 +13,7 @@ const Card: React.FC<Props> = ({
 }: Props): JSX.Element => {
   return (
     <Link
-      to={`/company/${searchResult.symbol}/company-profile`}
+      to={`/InvestIQ/company/${searchResult.symbol}/company-profile`}
       className="font-bold md:text-left"
     >
       <div

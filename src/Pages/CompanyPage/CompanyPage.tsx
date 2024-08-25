@@ -1,10 +1,7 @@
-// Funcs
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { CompanyProfile } from "../../company";
 import { getCompanyProfile } from "../../api";
-
-// Comps 
 import TopBar from "../../components/TopBar/TopBar";
 import CompanyDashboard from "../../components/CompanyDashboard/CompanyDashboard";
 import Tile from "../../components/Tile/Tile";

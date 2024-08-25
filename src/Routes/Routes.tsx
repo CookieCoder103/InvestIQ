@@ -24,19 +24,19 @@ export const router = createBrowserRouter([
         element: <CompanyPage />,
         children: [
           {
-            path: "/InvestIQ/company/:ticker/company-profile",
+            path: "company-profile",
             element: <CompanyProfile />,
           },
           {
-            path: "/InvestIQ/company/:ticker/income-statement",
+            path: "income-statement",
             element: <IncomeStatement />,
           },
           {
-            path: "/InvestIQ/company/:ticker/balance-sheet",
+            path: "balance-sheet",
             element: <BalanceSheet />,
           },
           {
-            path: "/InvestIQ/company/:ticker/cashflow-statement",
+            path: "cashflow-statement",
             element: <CashFlowStatement />,
           },
         ],

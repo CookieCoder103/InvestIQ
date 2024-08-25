@@ -9,7 +9,6 @@ import {
   formatRatio,
 } from "../Helpers/NumberFormattingHelpers";
 
-
 const tableConfig = [
   {
     label: "Market Cap",
